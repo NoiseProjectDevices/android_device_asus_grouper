@@ -14,12 +14,6 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  LOCAL_KERNEL := devices/asus/grouper/kernel
-else
-  LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
 PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 PRODUCT_AAPT_CONFIG := normal
